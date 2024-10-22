@@ -1,0 +1,140 @@
+
+/* RTL Css */
+
+
+.rtl {
+	direction: rtl;
+	text-align: right;
+}
+
+.rtl .owl-carousel {
+	direction: ltr;
+}
+
+
+
+.rtl .main-menu .navigation>li>ul {
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+
+.rtl .main-menu .navigation>li>ul>li>ul {
+    left: auto;
+    right: 100%;
+    text-align: right;
+}
+
+.rtl .main-menu .navigation>li>ul>li>a {
+    text-align: right;
+}
+
+.rtl .main-menu .navigation>li>ul>li:after {
+    right: auto;
+    left: 0;
+}
+
+.rtl .main-menu .navigation>li>ul>li.dropdown>a:after {
+    right: auto;
+    left: 0;
+}
+
+.rtl .main-menu .navigation>li>ul>li>ul>li>a {
+    text-align: right;
+}
+
+@media only screen and (max-width:1600px) {
+
+    .rtl .main-menu .navigation>li:nth-last-child(-n+3)>ul>li>ul {
+        right: auto;
+        left: 100%;
+    }
+    .rtl .main-menu .navigation > li:nth-last-child(-n+2) > ul {
+        right: auto;
+        left: 0;
+    }
+    .rtl .main-menu .navigation > li:nth-last-child(-n+2) > ul > li > ul {
+        right: auto;
+        left: 100%;
+    }   
+}
+
+.rtl .banner-section .banner-slider-nav {
+    direction: ltr;
+}
+
+.rtl .welcome-section .image-one:before {
+    left: auto;
+    right: -70px;
+}
+
+.rtl .testimonials-section .testimonial-thumbs {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.rtl .testimonials-section .icon-box .icon {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.rtl .newsletter-section .icon-box {
+    padding-left: 0;
+    padding-right: 95px;
+}
+
+.rtl .newsletter-section .icon {
+    left: auto;
+    right: 0;
+}
+
+.rtl .news-widget .image {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 992px) {
+	.rtl .links-widget {
+		position: relative;
+		left: 0;
+		right: 70px;
+	}
+}
+
+.rtl .main-header.header-style-two .header-upper .link-box {
+    margin-right: 0;
+    margin-left: -61px;
+}
+
+.rtl .banner-section.style-two .content-box .inner {
+    padding-right: 40px;
+    padding-left: 0;
+}
+
+.rtl .banner-section.style-two .content-box .inner:before {
+    left: auto;
+    right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
